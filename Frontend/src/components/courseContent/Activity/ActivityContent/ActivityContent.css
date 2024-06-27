@@ -1,0 +1,117 @@
+.descriptionActivity {
+  border-radius: 1vh;
+  box-shadow: 0 0 15px rgb(184, 184, 184);
+  margin-top: 3vh;
+}
+
+#tittleActivity {
+  font-weight: 600;
+  margin: 1.5vh 2vh 2vh 2vh;
+  display: inline-block;
+  align-items: center;
+}
+
+#containerIconActivity {
+  padding: 2vh 3vh 2vh 3vh;
+  margin-right: 2vh;
+  border-radius: 5px;
+}
+
+#iconActivity {
+  width: 35px;
+  color: rgb(255, 255, 255);
+}
+
+#addResource {
+  color: #3c23ff;
+  display: inline-block;
+}
+
+#addResource:hover {
+  cursor: pointer;
+  color: #1801c4;
+  text-decoration: underline;
+}
+
+#deleteResource {
+  color: #ff2323;
+  display: inline-block;
+  margin-left: 5px;
+  height: 3vh;
+}
+
+#deleteResource:hover {
+  cursor: pointer;
+  color: rgba(189, 31, 0, 0.988);
+  text-decoration: underline;
+}
+
+.contentActivity {
+  margin: 4vh;
+}
+
+.infoActivity {
+  margin: 3vh 0;
+  padding: 2vh;
+  border-radius: 1vh;
+  background-color: rgb(243, 243, 243);
+}
+
+.infoActivity h3 {
+    margin-top: 1vh;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.infoActivity span {
+    display: inline-block;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.linkFile {
+  text-decoration: underline;
+}
+
+#btnAddDelivery {
+    background-color: #1e0d9e;
+    color: white;
+    padding: 8px;
+    border-radius: 1vh;
+    border: none;
+}
+.containerBtnAddDelivery {
+    display: flex;
+    width: 100%;
+    margin-top: 1vh;
+
+}
+
+#btnAddDelivery:hover {
+    background-color: #260fd1
+}
+
+.stateDelivery {
+    margin-bottom: 2vh;
+}
+
+#tittleStateDelivery {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    font-size: larger;
+    font-weight: 400;
+    color: gray;
+}
+.stateDeliveryDescription {
+    padding: 0 !important;
+    margin: 0 !important;
+    
+}
+
+.tableStateDelivery th{
+    width: 250px !important;
+}
+
+.tableStateDelivery tr{
+    font-weight: 300;
+}

@@ -1,0 +1,102 @@
+.accordion-item {
+    border: none;
+    margin-bottom: 5px;
+    border-bottom: 1px;
+}
+
+.acorddionButton:focus .rowAcordion {
+    color: rgb(0, 0, 194);
+}
+
+.buttonText {
+    font-size: 2.5vh;
+    font-weight: 500;
+    color: rgb(116, 116, 116);
+}
+
+@keyframes rotateDown {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(90deg); }
+}
+  
+.rotateDown {
+    animation: rotateDown 75ms linear forwards;
+}
+
+@keyframes rotateRight {
+    0% { transform: rotate(90deg); }
+    100% { transform: rotate(0deg); }
+}
+  
+.rotateRight {
+    animation: rotateRight 75ms linear forwards;
+}
+
+.acorddionButton {
+    width: 100% !important;
+    text-align: left !important;
+    border: none !important;
+    background-color: white;
+}
+
+.rowAcordion {
+    font-size: 3.5vh;
+    color: rgb(109, 109, 109);
+    margin-right: 4vh;
+}
+
+.accordion-button.collapsed {
+    background-color: white !important;
+    box-shadow: none !important;
+} 
+
+.accordion-button:not(.collapsed) {
+    background-color: white !important;
+    box-shadow: none !important;
+} 
+
+.addActivity{
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+.containerImgAddActivity {
+    border: 2px solid rgb(0, 0, 146);
+    margin: 2vh 2vh 2vh 1vh;
+    width: 12vh;
+    border-radius: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addActivityContainer:hover .card-title{
+    text-decoration: underline !important;
+}
+
+#iconAddActivity {
+    color: rgb(2, 2, 149);
+    width: 6vh;
+    height: 6vh;
+    margin: 2vh !important;
+
+}
+
+.card-title{
+    margin: 0;
+    color: rgb(0, 14, 164);
+    font-weight: 400;
+    font-size: 2.3vh;
+}
+
+.card-title.activity:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.addActivityTittle h5{
+    display: inline-block;
+}

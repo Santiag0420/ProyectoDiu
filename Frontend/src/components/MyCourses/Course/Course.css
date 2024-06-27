@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+.courseCol {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.card.course:hover {
+    cursor: pointer;
+}
+.iconDeleteCourse {
+    height: 5vh;
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+    color: rgb(230, 13, 13);
+}
+
+.iconDeleteCourse:hover {
+    color: rgb(186, 6, 6);
+}
+
+.iconEditCourse {
+    height: 5vh;
+    position: absolute;
+    top: 2vh;
+    right: 9vh;
+    color: rgb(58, 23, 172);
+}
+
+.iconEditCourse:hover {
+    color: rgb(28, 4, 105);
+}
+
+#courseImg {
+    height: 12rem;
+    color: rgba(239, 0, 0, 0.49)
+}
+
+#courseCode {
+    color: gray;
+    font-size: medium;
+}
+
+#courseName {
+    font-size: large;
+    display: inline-block !important;
+    color: #2816b4;
+}
+#courseName:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}

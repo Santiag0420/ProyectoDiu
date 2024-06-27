@@ -1,0 +1,65 @@
+.activities{
+    display: flex;
+    align-items: center;
+}
+
+.activitiesContainer {
+    margin-bottom: 1vh;
+}
+.activitiesContainer:hover {
+    cursor: pointer;
+}
+
+.containerImgActivity{
+    margin: 2vh;
+    width: 12vh;
+    border-radius: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.activitiesContainer:hover .card-title{
+    text-decoration: underline;
+}
+
+.imageActivity {
+    padding: 0px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 6vh;
+}
+
+#deleteActivity{
+    position: absolute;
+    top: 2vh;
+    right: 2vh;
+    height: 4vh;
+    color: rgb(230, 13, 13);
+}
+
+#deleteActivity:hover {
+    color: rgb(186, 6, 6);
+} 
+
+#editActivity {
+    position: absolute;
+    top: 2vh;
+    right: 7.8vh;
+    height: 4vh;
+    color: rgb(58, 23, 172);
+}
+
+#editActivity:hover {
+    color: rgb(28, 4, 105);
+}
+
+.activityTittle .card-title{
+    display: inline-block;
+    margin: 0;
+    color: rgb(0, 14, 164);
+    font-weight: 400;
+    font-size: 2.3vh;
+}
+

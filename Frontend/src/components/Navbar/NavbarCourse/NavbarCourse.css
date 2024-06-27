@@ -1,0 +1,18 @@
+.navbarMyCourses {
+    background-color: rgb(101, 101, 101) !important;
+    height: 9vh;
+    padding: 0;
+}
+
+#btnLinksNavCourses {
+    height: 9vh;
+    background-color: rgb(101, 101, 101) !important;
+    border: none;
+    color: white;
+}
+
+#btnLinksNavCourses:focus {
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+}
